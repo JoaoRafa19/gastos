@@ -1,0 +1,35 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "gastos",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_dev.dart"
+            
+        },
+        {
+            "name": "gastos PROD",
+            "request": "launch",
+            "type": "dart"
+            ,"program": "lib/main.dart"
+                
+            
+        },
+        {
+            "name": "gastos (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "gastos (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
